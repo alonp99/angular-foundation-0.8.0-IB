@@ -19,8 +19,108 @@
   <component name="FavoritesManager">
     <favorites_list name="angular-foundation-0.8.0" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="typeahead.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/typeahead/typeahead.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="306" column="34" selection-start-line="306" selection-start-column="34" selection-end-line="306" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/typeahead/typeahead.js" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
-    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="before-test" info="Alias for &quot;enforce&quot;, &quot;jshint&quot;, &quot;html2js&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="enforce" />
+        <dependency value="jshint" />
+        <dependency value="html2js" />
+      </alias-task>
+      <alias-task name="after-test" info="Alias for &quot;build&quot;, &quot;copy&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="build" />
+        <dependency value="copy" />
+      </alias-task>
+      <alias-task name="watch" info="Alias for &quot;before-test&quot;, &quot;after-test&quot;, &quot;karma:watch&quot;, &quot;delta&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="before-test" />
+        <dependency value="after-test" />
+        <dependency value="karma:watch" />
+        <dependency value="delta" />
+      </alias-task>
+      <alias-task name="docs" info="Alias for &quot;before-test&quot;, &quot;after-test&quot;, &quot;connect&quot;, &quot;open&quot;, &quot;delta&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="before-test" />
+        <dependency value="after-test" />
+        <dependency value="connect" />
+        <dependency value="open" />
+        <dependency value="delta" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;before-test&quot;, &quot;test&quot;, &quot;after-test&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="before-test" />
+        <dependency value="test" />
+        <dependency value="after-test" />
+      </alias-task>
+      <core-task name="ngdocs" info="build documentation" file-path="$PROJECT_DIR$/node_modules/grunt-ngdocs/tasks/grunt-ngdocs.js" multi="true">
+        <target value="api" />
+      </core-task>
+      <core-task name="changelog" info="Generate a changelog from git metadata." file-path="$PROJECT_DIR$/node_modules/grunt-conventional-changelog/tasks/changelog.js" multi="false" />
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="dist" />
+        <target value="dist_tpls" />
+      </core-task>
+      <core-task name="connect" info="Start a connect web server." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-connect/tasks/connect.js" multi="true">
+        <target value="docs" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="demohtml" />
+        <target value="demoassets" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="dist" />
+        <target value="dist_tpls" />
+      </core-task>
+      <core-task name="jshint" info="Validate files with JSHint." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/tasks/jshint.js" multi="true">
+        <target value="files" />
+      </core-task>
+      <core-task name="html2js" info="Compiles Angular-JS templates to JavaScript." file-path="$PROJECT_DIR$/node_modules/grunt-html2js/tasks/html2js.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="karma" info="run karma." file-path="$PROJECT_DIR$/node_modules/grunt-karma/tasks/grunt-karma.js" multi="true">
+        <target value="watch" />
+        <target value="continuous" />
+        <target value="legacy" />
+        <target value="jenkins" />
+        <target value="travis" />
+        <target value="coverage" />
+      </core-task>
+      <core-task name="open" info="Open urls and files from a grunt task" file-path="$PROJECT_DIR$/node_modules/grunt-open/tasks/open.js" multi="true">
+        <target value="docs" />
+      </core-task>
+      <core-task name="delta" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="docs" />
+        <target value="html" />
+        <target value="js" />
+      </core-task>
+      <core-task name="enforce" info="Install commit message enforce script if it doesn't exist" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="dist" info="Override dist directory" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="build" info="Create foundation build files" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="test" info="Run tests on singleRun karma server" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="version" info="Set version. If no arguments, it just takes off suffix" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="release" info="Release a new version" file-path="$PROJECT_DIR$/Gruntfile.js" multi="true">
+        <target value="release-prepare" />
+        <target value="release-start" />
+        <target value="release-complete" />
+      </core-task>
+    </gruntfile>
   </component>
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -86,6 +186,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.2.1/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/.nvm/versions/node/v6.2.1/lib/node_modules/grunt-cli" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <force value="false" />
+      <verbose value="false" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -97,30 +208,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468161310059</updated>
-      <workItem from="1468161311908" duration="37000" />
+      <workItem from="1468161311908" duration="421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37000" />
+    <option name="totallyTimeSpent" value="421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-257" width="1920" height="1057" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.494705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.505295" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3306288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -133,5 +244,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/typeahead/typeahead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="306" column="34" selection-start-line="306" selection-start-column="34" selection-end-line="306" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
